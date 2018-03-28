@@ -1,0 +1,42 @@
+{
+  "name": "nodestaticweb",
+  "version": "1.0.0",
+  "description": "tiny nodejs static web server",
+  "main": "src/app.js",
+  "bin": {
+    "nodesw": "bin/nodesw"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsxlsxxslxsl/NodeStaticWeb.git"
+  },
+  "keywords": [
+    "static",
+    "webserver"
+  ],
+  "author": "fordreamxkhl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lsxlsxxslxsl/NodeStaticWeb/issues"
+  },
+  "homepage": "https://github.com/lsxlsxxslxsl/NodeStaticWeb#readme",
+  "dependencies": {
+    "handlebars": "^4.0.11",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.19.1",
+    "eslint-plugin-html": "^4.0.2",
+    "pre-commit": "^1.2.2"
+  }
+}
