@@ -1,4 +1,4 @@
-# NodeStaticWeb
+# nodesw
 轻量级的nodejs静态资源web服务器
 
 ## 安装
